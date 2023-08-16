@@ -1,4 +1,7 @@
 import React from "react";
+import { CgWorkAlt } from "react-icons/cg";
+import { FaReact } from "react-icons/fa";
+import { LuGraduationCap } from "react-icons/lu";
 import BhumioSyncImg from "@/public/bhumios-sync.png";
 import AkashEStoreImg from "@/public/e-commerce.png";
 import MyBillBookImg from "@/public/mybillbook.png";
@@ -53,9 +56,58 @@ export const projectsData = [
     title: "MyBillBook",
     description:
       "Built an app in which users can interact with Landing page to log in it will take them to the items page and they can Add/Create/Edit and search items using the form. Users can’t see item page without login as protected routes is implemented here.",
-    tags: ["React.js ", "Next.js", "Sanity.io"],
+    tags: ["React.js ", "Chakra-UI", "Auth", "Styled-components"],
     githubLink: "https://github.com/Akash007670/MyBillBook",
     liveLink: "https://mybillbook-flobiz.netlify.app/",
     imageUrl: MyBillBookImg,
   },
+] as const;
+
+export const experiencesData = [
+  {
+    title: "B.Tech CSE",
+    location: "LPU, Jalandhar",
+    description:
+      " I pursued my Bachelor's degree in Computer Science and Engineering from Lovely Professional University. Throughout my time at university, I was deeply engaged in coursework that ranged from fundamental concepts to advanced topics in the field. This comprehensive education has equipped me with the knowledge and expertise necessary to excel as a Frontend developer",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2023",
+  },
+  {
+    title: "Front-End Developer Intern",
+    location: "Disecto Technologies",
+    description:
+      "I worked as a front-end developer for 1 year at Disecto Technologies where I was responsible for the development of data anonymization application/classification from the scratch and creating good user experience and scaling up the development rate.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Front-End Developer Trainee",
+    location: "GoGroup",
+    description:
+      "Currently I'm working at GoGroup where I Designed and Implemented web application along with dashboards UI Enhancements. Added reusable components using react/redux and sass for better User Experience across all the products. Also revamped the entire landing page for better navigation and improved SEO for the product",
+    icon: React.createElement(FaReact),
+    date: "2022 - present",
+  },
+] as const;
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React.js",
+  "Next.js",
+  "Node.js",
+  "Redux",
+  "Git",
+  "Chakra-UI",
+  "Styled-Components",
+  "Figma",
+  "Tailwind",
+  "MongoDB",
+  "Express.js",
+  "Chart.js",
+  "Sass",
+  "Framer Motion",
+  "TypeScript",
+  "GraphQL",
 ] as const;
