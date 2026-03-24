@@ -27,10 +27,9 @@ const About = () => {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React.js, Next.js, Node.js, and MongoDB
+          Nex.t.js, React.js, Next.js, Node.js, Typescript and MongoDB.
         </span>
-        . I am also familiar with Express.js and Typescript. I am always looking
-        to learn new technologies. I am currently looking for a{" "}
+        {" "}I am always looking to learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
@@ -38,8 +37,7 @@ const About = () => {
       <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy
         watching movies, animes, and playing football. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about <span className="font-medium">GraphQl.</span>
+        <span className="font-medium">learning new things</span>
       </p>
     </motion.section>
   );

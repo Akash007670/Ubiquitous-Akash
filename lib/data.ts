@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import BhumioSyncImg from "@/public/bhumios-sync.png";
 import AkashEStoreImg from "@/public/e-commerce.png";
 import MyBillBookImg from "@/public/mybillbook.png";
+import NxtClImg from "@/public/nxtcl-storybook.png"
 
 export const links = [
   {
@@ -34,6 +35,15 @@ export const links = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "NxtCl",
+    description:
+      "Developed frontend npm package with Babel + Webpack to explore library design, Storybook documentation, and modular components. Configured CI/CD using GitHub Actions with Semantic Release, automating builds, versioning, publishing, reducing manual release effort by 90%",
+    tags: ["HTML", "CSS", "Storybook", "Babel", "Npm"],
+    githubLink: "https://github.com/Akash007670/nxt-cl",
+    liveLink: "https://akash007670.github.io/nxt-cl/?path=/docs/nxt-cl-button--docs",
+    imageUrl: NxtClImg,
+  },
   {
     title: "BhumioSync",
     description:
@@ -81,10 +91,10 @@ export const experiencesData = [
     date: "2021 - 2022",
   },
   {
-    title: "Front-End Developer Trainee",
+    title: "Front-End Developer",
     location: "GoGroup",
     description:
-      "Currently I'm working at GoGroup where I Designed and Implemented web application along with dashboards UI Enhancements. Added reusable components using react/redux and sass for better User Experience across all the products. Also revamped the entire landing page for better navigation and improved SEO for the product",
+      "Currently at GoGroup, I was part of the founding engineering effort on Wandel. I've owned the frontend end-to-end — architecting the website, admin panel, and employer-facing platforms with a focus on performance, maintainability, and clean UX. My core stack includes React.js, Next.js, TypeScript, Tailwind CSS, Redux, and Sass — and I'm equally comfortable reaching for tools like Framer Motion for polished interactions, Zod for robust validation, or Storybook for building reliable component libraries. I also work across the stack with Node.js, Express.js, MongoDB, and PostgreSQL when needed ",
     icon: React.createElement(FaReact),
     date: "2022 - present",
   },
